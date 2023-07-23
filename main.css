@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 10px;
+}
+
+.logo {
+    text-align:left ; 
+    display: inline-block;
+    width: 1px;
+    height: 1px;
+    background-color: #575656;
+    margin-top: 1000px;
+    padding:20px;
+}
+
+
+nav {
+    text-align: right; 
+}
+
+nav a {
+    text-decoration: none; 
+    font-size: 20px; 
+    padding: 10px 20px;
+    margin-right: 10px; 
+    border: 1px solid #ccc; 
+    color: white; 
+    background-color: #333; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+nav a:hover {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+main {
+    font-family: Arial, sans-serif;
+    padding: 1px;
+    height: auto;
+}
+
+main section {
+    background-color: rgb(236, 183, 118);
+    font-family: Arial, sans-serif;
+    width: 70%;
+    float: left;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: -250px;
+    margin-bottom: 30px;
+    height: auto;
+   
+}
+
+section {
+    margin-bottom: 1px;
+    margin-top: -350px;
+    border: auto;
+}
+
+.section-heading {
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+figure.main-figure {
+    margin:  auto;
+    padding: 5px;
+    text-align: center;
+}
+
+figure.main-figure img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ebe7e7;
+    
+}
+
+figure.main-figure figcaption {
+    font-style: italic;
+    color: #777;
+}
+
+figure.main-figure iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+aside {
+    max-width: 100%;
+    text-align: right;
+    height: auto;
+    padding: 20px;
+
+
+    margin-top:10px;
+   
+}
+
+ul.aside-list {
+    list-style-type: none; 
+    line-height: 1.5;
+}
+
+footer {
+    width: 100%;
+    height: 10px;
+    font-family: Arial, sans-serif;
+    color: rgb(247, 239, 239);
+    text-align: center;
+    padding: 30px;
+    font-size: 14px;
+    margin-top: 730px;
+    background-color: #333;
+  }
